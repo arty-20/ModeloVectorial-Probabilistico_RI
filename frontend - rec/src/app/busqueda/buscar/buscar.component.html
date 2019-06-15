@@ -1,0 +1,23 @@
+<!-- <div>
+  <table>
+    <tr>
+      <td ><input class="form-control" type="text" name="docActual.palabra" [(ngModel)]="docActual.palabra"></td>
+      <td > <button class="btn btn-primary" (click)="agregarDoc(docActual)">Buscar</button></td>
+    </tr>
+    
+    <a href="http://127.0.0.1:8887/asfa.html">abrir</a>
+    
+  </table> 
+</div>  -->
+<div class = "form-group">
+  <label for=""></label>
+</div>
+<form  class="form-inline container">
+  <label for=""></label>
+    <div class="form-group mb-2">
+      <textarea cols="90" rows="1" class="form-control"  name="docActual.palabra" [(ngModel)]="docActual.palabra" placeholder="Ingresar búsqueda">
+      </textarea>
+    </div>
+    
+    <button (click)="agregarDoc(docActual)" class="btn btn-primary mb-2">Buscar</button>
+  </form>

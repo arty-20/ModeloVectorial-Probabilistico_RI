@@ -1,0 +1,35 @@
+<!-- <div>
+  <table>
+    <tr>
+      <td > <label>Titulo de Documento: </label></td>
+      <td ><input type="text" name="docActual.tituloDoc" [(ngModel)]="docActual.tituloDoc"></td>
+    </tr>
+    <tr>
+      <td ><label>Texto: </label></td>
+      <td ><textarea name="docActual.textoDoc" [(ngModel)]="docActual.textoDoc" cols="30" rows="10"> </textarea></td>  
+      <td ><input type="file" name="docActual.textoDoc" [(ngModel)]="docActual.textoDoc"></td> 
+    </tr>
+    <a href="file:///C:/Users/R2D2/Desktop/hola.html">abrir</a>
+    <tr >
+      <td colspan="2">  
+        <button (click)="agregarDoc(docActual)">Crear</button>
+      </td> 
+    </tr>
+  </table> 
+</div>  -->
+
+<div class="container">
+  <label for=""></label>
+  <div class="form-group">
+    <label><h3>Titulo de Documento:</h3> </label>
+    <input class="form-control" type="text" name="docActual.tituloDoc" [(ngModel)]="docActual.tituloDoc">
+  </div>
+  <div class="form-group">
+      <label><h3>Texto: </h3></label>
+      <textarea class="form-control" name="docActual.textoDoc" [(ngModel)]="docActual.textoDoc" rows="10"> </textarea>
+  </div>
+  <button align="center" class="btn btn-danger" (click)="agregarDoc(docActual)">Agregar Documento</button>
+  <div class="form-group">
+<label for=""></label>
+  </div>
+</div>
